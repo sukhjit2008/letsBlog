@@ -9,7 +9,7 @@ const Navbar = (props) => {
   return (
     <nav className="nav-wraper blue-grey darken-4">
       <div className="container">
-        <Link to='/' className="brand-logo left">LetsBlog</Link>
+        <Link to='/' className="brand-logo left "> <i class="large material-icons" style={{'font-size': '40px',verticalAlign:'center'}}>cast_connected</i></Link>
         {navlink}
       </div>
     </nav>
